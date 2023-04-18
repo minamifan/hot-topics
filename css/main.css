@@ -1,0 +1,197 @@
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #2e3e50;
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  .masthead h1 {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+  }
+  .masthead{
+    margin: 2rem;
+  }
+  h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+  }
+  figcaption{
+    font-family: 'Playfair Display', serif;
+  }
+  /* Navigation styles */
+  nav {
+    background-color: #f2f2f2;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    font-size: 1.5rem;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  .content {
+    text-align: center;
+    margin: auto;
+    max-width: 70rem;
+    padding: 1rem 1.8rem;
+}
+.content p{
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+}
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .social-links ul{
+     display: flex;
+     justify-content: center;
+    
+  }
+  .social-links i{
+    font-size: 1.5rem;
+    color: #f2f2f2;
+    margin:1rem ;
+  }
+ 
+  /* mobile */
+  @media only screen and (max-width: 35rem) {
+    html {
+        font-size: 0.75rem; 
+        line-height: 1.4rem;
+    }
+    
+    .navbar {
+        padding-top: 2rem;
+    }
+    
+    .navbar li {
+        padding: 1rem;
+        width: 60%;
+        margin: auto;
+    }
+    
+    .masthead{
+    
+        text-align: center;
+    }
+    .content1 img{
+      width: 20rem;
+    }
+    .portfolio-container img{
+      width: 20rem;
+      height: auto;
+  }
+
+}
+
+/* table */
+@media only screen and (max-width: 80rem) and (min-width: 35rem) {
+    html {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .masthead h1 {
+        margin: auto;
+        /* padding:6rem 1rem; */
+    }
+/* home */
+    .article1 {
+        /* width: 40%; */
+        display: flex;
+        /* margin: 0; */
+        /* padding-right: 2rem; */
+    }
+    .content1 img{
+      width: 30rem;
+    }
+    /* portfolio */
+    .portfolio-container {
+        display: inline-flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+        margin: 0;
+        justify-content: space-around;
+    }
+    
+    .portfolio-container figure {
+        margin: 0; 
+        width: 40%;
+    }
+    .portfolio-container img{
+      width: 20rem;
+      height: auto;
+  }
+ 
+}
+/* Desktop */
+@media only screen and (min-width: 80rem) {
+    html {
+        font-size: 1.15rem; 
+        line-height: 1rem;
+    }
+/* home */
+.article1 {
+    display: flex;
+    margin: auto;
+}
+
+.article1 p {
+    width: 60%;
+}
+
+.content1 {
+    width: 40%;
+    margin: 0;
+    padding-right: 6rem;
+}
+.content1 img{
+  width: 30rem;
+}
+
+/* portfolio */
+.portfolio-container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin: auto;
+}
+
+.portfolio-container img{
+    width: 15rem;
+    height: auto;
+}
+}
